@@ -1,0 +1,149 @@
+  :root {
+    --h2-font-size: 36px;
+    --h3-font-size: 20px;
+    --text-size: 16px;
+    --primary-cl: #4D5AE5;
+    --pressed-cl: #404BBF;
+    --dark-cl: #2E2F42;
+    --text-cl: #434455;
+    --accent-cl: #E7E9FC;
+    --light-cl: #F4F4FD;
+    --white-cl: #fff;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-cl);
+    color: var(--text-cl);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: var(--text-size);
+  }
+
+  .logo-text {
+    font-family: Raleway, sans-serif;
+    color: var(--primary-cl);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .logo-dark {
+    color: var(--dark-cl);
+  }
+
+  .logo-light {
+    color: var(--light-cl);
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .list {
+    list-style: none;
+  }
+
+  .menu .link {
+    color: var(--dark-cl);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .contacts .link {
+    color: currentColor;
+    letter-spacing: 0.02em;
+  }
+  
+  .address-contacts {
+    font-style: normal;
+  }
+
+  .link:hover, .link:active, .link:focus {
+    color: var(--pressed-cl);
+    text-decoration: underline;
+  }
+
+  .footer {
+    background-color: var(--dark-cl);
+    color: var(--light-cl);
+  }
+
+  .section-main {
+    background-color: var(--dark-cl);
+    color: var(--white-cl);
+    text-align: center;
+  }
+
+  .title-main {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+
+  .button {
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: 0.04em;
+  }
+
+  .order-bt {
+    background-color: var(--primary-cl);
+    color: var(--white-cl);
+  }
+
+  .order-bt:hover, .order-bt:focus {
+    background-color: var(--pressed-cl);
+  }
+
+  .default-title {
+    color: var(--dark-cl);
+  }
+
+  .secondary-title {
+    font-size: var(--h2-font-size);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+  }
+
+  .small-title {
+    font-size: var(--h3-font-size);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .work-title, .team-title {
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .section-team {
+    background-color: var(--light-cl);
+  }
+
+  .team-card {
+    background-color: var(--white-cl);
+  }
+
+  .filter-buttons {
+    color: var(--primary-cl);
+    background-color: var(--light-cl);
+  }
+
+  .filter-buttons:hover, .filter-buttons:focus {
+    color: var(--white-cl);
+    background-color: var(--pressed-cl);
+  }
+
+  .portfolio-card {
+    background-color: var(--white-cl);
+    border: 1px solid #E7E9FC;
+  }
