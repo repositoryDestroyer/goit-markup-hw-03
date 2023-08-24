@@ -10,6 +10,16 @@
     --light-cl: #F4F4FD;
     --white-cl: #fff;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    display: block;
+  }
+
   
   body {
     font-family: 'Roboto', sans-serif;
@@ -60,6 +70,7 @@
     color: var(--dark-cl);
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0;
   }
 
   .contacts {
@@ -84,7 +95,7 @@
   .footer {
     background-color: var(--dark-cl);
     color: var(--light-cl);
-    padding: 100px 156px;
+    padding: 100px 0;
   }
 
   .footer .logo-text {
@@ -178,17 +189,19 @@
     overflow: hidden;
   }
 
-  header {
+  .header {
     border-bottom: 1px solid var(--accent-cl);
     padding: 24px 156px;
   }
 
-  header .container {
+  .header .container {
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
   }
 
-  header .container nav {
+  .header .container .navigation {
     display: flex;
+    align-items: center;
   }
 
