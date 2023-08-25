@@ -247,3 +247,24 @@ body {
 .section-works {
   padding-bottom: 120px;
 }
+
+.section-team {
+  padding: 120px 0;
+}
+
+.section-team .list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-team .team-card {
+  background-color: var(--white-cl);
+  flex-basis: calc(100% - 24*3/4);
+}
+
+.section-team .team-info-wrapper {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
