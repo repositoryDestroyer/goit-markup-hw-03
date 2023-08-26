@@ -119,6 +119,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto 24px;
 }
 
 .button {
@@ -138,6 +139,7 @@ body {
 .order-bt {
   background-color: var(--primary-cl);
   color: var(--white-cl);
+  margin: 0 auto;
 }
 
 .order-bt:hover, .order-bt:focus {
@@ -181,6 +183,9 @@ body {
   background-color: var(--light-cl);
   padding: 12px 24px;
   border: 1px solid var(--accent-cl);
+  width: auto;
+  height: auto;
+  min-width: auto;
 }
 
 .filter-buttons:hover, .filter-buttons:focus {
@@ -196,17 +201,22 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
   overflow: hidden;
 }
 
 .header {
   border-bottom: 1px solid var(--accent-cl);
-  padding: 24px 156px;
+}
+
+.header .link {
+  display: block;
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 15px;
 }
 
@@ -284,10 +294,10 @@ body {
 }
 
 .section-portfolio .card-list {
-  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
 }
 
 .section-portfolio .portfolio-card {
@@ -303,4 +313,7 @@ body {
 
 .section-portfolio .card-info-wrapper .small-title {
   margin-bottom: 8px; 
+}
+.section-portfolio .portfolio-card-link {
+  cursor: pointer;
 }
